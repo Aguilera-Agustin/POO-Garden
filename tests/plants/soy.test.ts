@@ -1,8 +1,8 @@
 import { Soy } from '../../objects/plants/soy';
 
-const myFirstSoy:Soy  = new Soy(2003, 0.3);
-const mySecondSoy:Soy  = new Soy(2009, 0.6);
-const myThirdSoy:Soy  = new Soy(2021, 3);
+const myFirstSoy:Soy    = new Soy(2003, 0.3);
+const mySecondSoy:Soy   = new Soy(2009, 0.6);
+const myThirdSoy:Soy    = new Soy(2021, 3);
 
 test('Correct value of hours under sun',()=>{
     expect(myFirstSoy.hs()).toBe(6)
