@@ -22,6 +22,11 @@ export abstract class Plant{
     getHeight():number{
         return this.height;
     } 
+
+    /**
+     * 
+     * @returns If this plant is Strong
+     */
     isStrong():boolean{
         return (this.hs()>10)
     }
