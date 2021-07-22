@@ -1,3 +1,4 @@
+import { Plot } from '../plots/plot';
 export abstract class Plant{
     private year: number;
     private height: number;
@@ -21,10 +22,12 @@ export abstract class Plant{
     getHeight():number{
         return this.height;
     } 
+    isStrong():boolean{
+        return (this.hs()>10)
+    }
 
     abstract hs():number;
-    abstract isStrong():boolean;
-    abstract isFather():number;
+    abstract isFather():boolean;
     abstract size():number;
-    abstract perfectPlot():boolean;
+    abstract perfectPlot(plot :Plot):boolean;
 }
