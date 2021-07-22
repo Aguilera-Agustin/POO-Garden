@@ -3,10 +3,8 @@ import { Plant } from './plant';
 import { getSoyHs, getSoyFatherCondition } from '../../helpers/soyHelper';
 
 export class Soy extends Plant{
-    private sunHs:number;
     constructor(year: number, height: number){
         super(year, height);
-        this.sunHs=6;
     }
 
     hs(): number {
