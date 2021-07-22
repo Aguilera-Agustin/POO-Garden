@@ -1,4 +1,3 @@
-import { Plot } from '../../plots/plot';
 import { Mint } from '../mint';
 
 export class Peppermint extends Mint{
