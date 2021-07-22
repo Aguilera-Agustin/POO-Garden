@@ -1,5 +1,5 @@
 import { Soy } from "../soy";
-import { Plot } from '../../plots/plot';
+import { Plot } from '../../plots/_plot';
 
 export class TransgenicSoy extends Soy{
     

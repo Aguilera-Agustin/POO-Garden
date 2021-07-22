@@ -1,5 +1,5 @@
-import { Plot } from '../plots/plot';
-import { Plant } from './plant';
+import { Plot } from '../plots/_plot';
+import { Plant } from './_plant';
 
 export class Quinoa extends Plant{
     private sunHs:number;

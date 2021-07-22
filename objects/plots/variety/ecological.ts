@@ -1,5 +1,5 @@
-import { Plot } from '../plot';
-import { Plant } from '../../plants/plant';
+import { Plot } from '../_plot';
+import { Plant } from '../../plants/_plant';
 
 export class EcologicalPlot extends Plot {
     constructor(size:{width: number, lengthy: number}, sunHs:number, plants:Plant[]=[]){

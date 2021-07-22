@@ -1,4 +1,4 @@
-import { Plot } from '../plots/plot';
+import { Plot } from '../plots/_plot';
 export abstract class Plant{
     private year: number;
     private height: number;

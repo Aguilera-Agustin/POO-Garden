@@ -1,4 +1,4 @@
-import { Plant } from '../plants/plant';
+import { Plant } from '../plants/_plant';
 import { getMaxCapacityOfPlants, sowCapacityValidation, strongValidation } from '../../helpers/plotHelper';
 export abstract class Plot {
     private width :number;

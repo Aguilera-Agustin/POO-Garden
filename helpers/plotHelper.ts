@@ -1,4 +1,4 @@
-import { Plant } from '../objects/plants/plant';
+import { Plant } from '../objects/plants/_plant';
 export const getMaxCapacityOfPlants = (size:{width:number, lengthy:number}, surface:number) :number =>{
     const { lengthy, width } = size;
     return width>lengthy?(surface/5):((surface/3)+lengthy);
