@@ -21,3 +21,7 @@ test('Is this Mint a Father plant?',()=>{
 test('Correct value of size',()=>{
     expect(mySecondMint.size()).toBeCloseTo(0.89, 0.91);
 })
+
+test('Correct value of size',()=>{
+    expect(myFirstMint.size()).toBe(15);
+})

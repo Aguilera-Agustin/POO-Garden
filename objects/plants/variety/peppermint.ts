@@ -7,6 +7,6 @@ export class PepperMint extends Mint{
     }
 
     size():number{
-        return super.getHeight();
+        return (super.size()*2);
     }
 }
