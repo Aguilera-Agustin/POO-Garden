@@ -1,7 +1,7 @@
 import { Plot } from '../plots/plot';
 import { Plant } from './plant';
 
-export class Mint extends Plant{
+export class Quinoa extends Plant{
     private sunHs:number;
     constructor(year: number, height: number, sunHs:number){
         super(year, height);
