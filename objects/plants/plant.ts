@@ -1,23 +1,31 @@
 export abstract class Plant{
-    //Vars
+                            //Vars
     private year: number;
     private height: number;
     
-    //Constructor
+                            //Constructor
     constructor(year:number, height:number){
         this.year=year;
         this.height=height;
     }
 
-    //Methods
+                            //Methods
+    /**
+     * 
+     * @returns Year of obtaining this plant
+     */
     getYear():number{
         return this.year;
     } 
+    /**
+     * 
+     * @returns Total plant's height
+     */
     getHeight():number{
         return this.height;
     } 
 
-    //Abstract Methods
+                            //Abstract Methods
     abstract hs():number;
     abstract isStrong():boolean;
     abstract isFather():number;

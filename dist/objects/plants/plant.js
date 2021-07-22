@@ -8,9 +8,17 @@ class Plant {
         this.height = height;
     }
     //Methods
+    /**
+     *
+     * @returns Year of obtaining this plant
+     */
     getYear() {
         return this.year;
     }
+    /**
+     *
+     * @returns Total plant's height
+     */
     getHeight() {
         return this.height;
     }
