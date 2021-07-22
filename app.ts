@@ -1,2 +1,1 @@
-export const nombre = 'Agustin'
-console.log(nombre)
+console.log("Hello world :D !")
