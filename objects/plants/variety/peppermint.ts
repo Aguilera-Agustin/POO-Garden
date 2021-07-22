@@ -1,6 +1,6 @@
 import { Mint } from '../mint';
 
-export class Peppermint extends Mint{
+export class PepperMint extends Mint{
     
     constructor(year: number, height: number){
         super(year, height);

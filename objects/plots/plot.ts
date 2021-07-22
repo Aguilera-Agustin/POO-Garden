@@ -2,25 +2,25 @@ import { Plant } from '../plants/plant';
 import { getMaxCapacityOfPlants, sowCapacityValidation, strongValidation } from '../../helpers/plotHelper';
 export abstract class Plot {
     private width :number;
-    private lengthty :number;
+    private lengthy :number;
     private sunHs :number;
     private plants :Plant[];
     
-    constructor(size:{width: number, lengthty: number}, sunHs:number, plants:Plant[]){
+    constructor(size:{width: number, lengthy: number}, sunHs:number, plants:Plant[]=[]){
         this.width=size.width;
-        this.lengthty=size.lengthty;
+        this.lengthy=size.lengthy;
         this.sunHs=sunHs;
         this.plants=plants;
     }
 
     surface():number{
-        return this.lengthty*this.width;
+        return this.lengthy*this.width;
     }
 
     capacity():number{
         const size ={
             width: this.width,
-            lengthty: this.lengthty
+            lengthy: this.lengthy
         }
         return getMaxCapacityOfPlants(size, this.surface());
     }
@@ -34,4 +34,31 @@ export abstract class Plot {
         strongValidation(newPlant, this.sunHs);                  //TODO:IMPROVE ERRORS
         this.plants.push(newPlant);
     }
+
+    
+    wellAssociatedPlants():number{
+        const associatedPlants = this.plants.filter(eachPlant=>(this.goodAssociation(eachPlant)));
+        return associatedPlants.length;
+    }
+
+    wellAssociatedPercentage():number{
+        return this.wellAssociatedPlants() / this.plants.length;
+    }
+
+    size():{width: number;  lengthy: number;}{
+        return {
+            width: this.width,
+            lengthy: this.lengthy
+        };
+    }
+
+    sunHours():number{
+        return this.sunHs;
+    }
+
+    plotPlants():Plant[]{
+        return this.plants;
+    }
+
+    abstract goodAssociation(plant:Plant):boolean;
 }

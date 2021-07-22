@@ -1,7 +1,7 @@
 import { Plant } from '../objects/plants/plant';
-export const getMaxCapacityOfPlants = (size:{width:number, lengthty:number}, surface:number) :number =>{
-    const { lengthty, width } = size;
-    return width>lengthty?(surface/5):((surface/3)+lengthty);
+export const getMaxCapacityOfPlants = (size:{width:number, lengthy:number}, surface:number) :number =>{
+    const { lengthy, width } = size;
+    return width>lengthy?(surface/5):((surface/3)+lengthy);
 }
 
 export const sowCapacityValidation = (plants: Plant[], capacity: number):void=>{
