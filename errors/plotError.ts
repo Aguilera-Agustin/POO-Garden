@@ -1,4 +1,4 @@
-class plotError extends Error {
+export class plotError extends Error {
     constructor(msg: string) {
         super(msg);
 
