@@ -20,6 +20,6 @@ export class Mint extends Plant{
         return (super.getHeight() * 3);
     }
     perfectPlot(plot: Plot): boolean {
-        throw new Error('Method not implemented.');
+        return plot.surface()>6
     }
 }

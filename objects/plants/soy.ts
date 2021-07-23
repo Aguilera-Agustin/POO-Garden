@@ -23,6 +23,6 @@ export class Soy extends Plant{
         return (super.getHeight() / 2);
     }
     perfectPlot(plot: Plot): boolean {
-        throw new Error('Method not implemented.');
+        return plot.sunHours()===this.hs();
     }
 }

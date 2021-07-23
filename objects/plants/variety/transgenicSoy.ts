@@ -8,10 +8,10 @@ export class TransgenicSoy extends Soy{
     }
 
     isFather():boolean{
-        return false
+        return false;
     }
 
     perfectPlot(plot: Plot): boolean {
-        throw new Error('Method not implemented.');
+        return plot.capacity()===1;
     }
 }

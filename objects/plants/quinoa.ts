@@ -20,6 +20,6 @@ export class Quinoa extends Plant{
         return 0.5;
     }
     perfectPlot(plot: Plot): boolean {
-        throw new Error('Method not implemented.');
+        return plot.plotPlants().filter((eachPlant)=>(eachPlant.getHeight()>1.5))?(false):(true)
     }
 }
