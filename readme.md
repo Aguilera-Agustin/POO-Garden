@@ -1,4 +1,4 @@
-# UNAHUR EXAMUNAHUR EXAM
+# UNAHUR EXAM
 
 You can see the requirements in [UNAHUR requirements](https://github.com/obj1-unahur-2021s1/semillasRecuperatorio/blob/master/README.md "UNAHUR requirements") :fa-heart:
 
