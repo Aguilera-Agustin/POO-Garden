@@ -7,7 +7,7 @@ export class EcologicalPlot extends Plot {
     }
 
     goodAssociation(plant: Plant): boolean {
-        return (plant.perfectPlot(this) && super.hasComplications());
+        return (plant.perfectPlot(this) && !super.hasComplications());
     }
 
 }
