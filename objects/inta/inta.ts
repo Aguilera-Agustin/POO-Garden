@@ -3,7 +3,7 @@ import { getmostSelfSustaining } from '../../helpers/intaHelper';
 export class Inta{
     private plots :Plot[];
 
-    constructor(plots:Plot[]){
+    constructor(plots:Plot[]=[]){
         this.plots=plots;
     }
 
