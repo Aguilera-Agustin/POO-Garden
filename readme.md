@@ -1,4 +1,4 @@
-# UNAHUR EXAM
+# UNAHUR EXAMUNAHUR EXAM
 
 You can see the requirements in [UNAHUR requirements](https://github.com/obj1-unahur-2021s1/semillasRecuperatorio/blob/master/README.md "UNAHUR requirements") :fa-heart:
 
@@ -6,15 +6,15 @@ You can see the requirements in [UNAHUR requirements](https://github.com/obj1-un
 
 For this exam, all of the program are made in english. Bellow you can see the translation.
 
-> Plant --> Planta
-> Mint --> Menta
-> Quinoa --> Quinoa
-> Soy --> Soja
-> Variety --> Variedad/es
-> Peppermint --> Hierbabuena
-> TransgenicSoy --> Soja Transgénica
-> Plot --> Parcela
-> Ecological --> Ecológica
+- Plant --> Planta
+- Mint --> Menta
+- Quinoa --> Quinoa
+- Soy --> Soja
+- Variety --> Variedad/es
+- Peppermint --> Hierbabuena
+- TransgenicSoy --> Soja Transgénica
+- Plot --> Parcela
+- Ecological --> Ecológica
 
 ---
 
