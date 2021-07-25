@@ -1,0 +1,1 @@
+{"version":3,"file":"plotError.js","sourceRoot":"","sources":["../../errors/plotError.ts"],"names":[],"mappings":";;;AAAA,MAAa,SAAU,SAAQ,KAAK;IAChC,YAAY,GAAW;QACnB,KAAK,CAAC,GAAG,CAAC,CAAC;QAGX,MAAM,CAAC,cAAc,CAAC,IAAI,EAAE,SAAS,CAAC,SAAS,CAAC,CAAC;IACrD,CAAC;IAED,SAAS;QACL,OAAO,eAAe,GAAG,IAAI,CAAC,OAAO,CAAC;IAC1C,CAAC;CACJ;AAXD,8BAWC"}
