@@ -4,7 +4,17 @@ You can see the requirements in [UNAHUR requirements](https://github.com/obj1-un
 
 ---
 
-For this exam, all of the program are made in english. Bellow you can see the translation. - Plant --> Planta - Mint --> Menta - Quinoa --> Quinoa - Soy --> Soja - Variety --> Variedad/es - Peppermint --> Hierbabuena - TransgenicSoy --> Soja Transgénica - Plot --> Parcela - Ecological --> Ecológica
+For this exam, all of the program are made in english. Bellow you can see the translation.
+
+> Plant --> Planta
+> Mint --> Menta
+> Quinoa --> Quinoa
+> Soy --> Soja
+> Variety --> Variedad/es
+> Peppermint --> Hierbabuena
+> TransgenicSoy --> Soja Transgénica
+> Plot --> Parcela
+> Ecological --> Ecológica
 
 ---
 
