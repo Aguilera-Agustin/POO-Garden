@@ -19,7 +19,7 @@ test('Perfect plot',()=>{
     expect(plant1.perfectPlot(myFirstPlot)).toBe(true)
 })
 
-test('Good Asociation',()=>{ 
+test('Good Association',()=>{ 
     expect(myFirstPlot.goodAssociation(plant1)).toBe(true)
 })
  
