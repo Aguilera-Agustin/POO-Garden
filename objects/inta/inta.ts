@@ -14,13 +14,13 @@ export class Inta{
     plantsAverage(){
         let counter = 0;
         this.plots.forEach(eachPlot => {
-            counter = counter+eachPlot.plotPlants.length;
+            counter = counter+eachPlot.plotPlants().length;
         });
         return counter/this.plots.length;
     }
 
     mostSelfSustaining(){
-        return getmostSelfSustaining(this.plots);
-
+        const plot= getmostSelfSustaining(this.plots)
+        return plot;
     }
 }
